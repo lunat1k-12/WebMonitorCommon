@@ -43,6 +43,9 @@ publishing {
     }
     publications {
         gpr(MavenPublication) {
+            groupId = "com.web.monitor.common"
+            artifactId = "web-monitor-common"
+            version = project.version
             from(components.java)
         }
     }
