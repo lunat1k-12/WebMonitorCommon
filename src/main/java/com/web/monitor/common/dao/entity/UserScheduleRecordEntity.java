@@ -34,6 +34,7 @@ public class UserScheduleRecordEntity {
     private String timezone;
     private Integer windowHeight;
     private String selector;
+    private String note;
 
     @DynamoDbPartitionKey
     @DynamoDbAttribute("userId")
@@ -111,5 +112,10 @@ public class UserScheduleRecordEntity {
     @DynamoDbAttribute("selector")
     public String getSelector() {
         return selector;
+    }
+
+    @DynamoDbAttribute("note")
+    public String getNote() {
+        return note;
     }
 }
