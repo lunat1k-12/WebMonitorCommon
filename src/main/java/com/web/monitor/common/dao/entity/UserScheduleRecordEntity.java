@@ -35,6 +35,7 @@ public class UserScheduleRecordEntity {
     private Integer windowHeight;
     private String selector;
     private String note;
+    private String llmQuality;
 
     @DynamoDbPartitionKey
     @DynamoDbAttribute("userId")
@@ -117,5 +118,10 @@ public class UserScheduleRecordEntity {
     @DynamoDbAttribute("note")
     public String getNote() {
         return note;
+    }
+
+    @DynamoDbAttribute("llmQuality")
+    public String getLlmQuality() {
+        return llmQuality;
     }
 }

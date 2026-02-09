@@ -32,4 +32,6 @@ public class WebMonitorConstants {
 
     public static final String LOW_QUALITY_EMAIL_TEMPLATE = "low-quality-notify.html";
 
+    public static final String LOW_QUALITY_LLM = "LOW_QUALITY";
+    public static final String HIGH_QUALITY_LLM = "HIGH_QUALITY";
 }
