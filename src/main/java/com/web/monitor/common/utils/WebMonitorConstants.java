@@ -29,4 +29,7 @@ public class WebMonitorConstants {
             BASIC_SUBSCRIPTION_PLAN, new UsageLimits(0, 3, 2),
             PRO_SUBSCRIPTION_PLAN, new UsageLimits(1, 4, 3),
             FREE_SUBSCRIPTION_PLAN, new UsageLimits(0, 1, 0));
+
+    public static final String LOW_QUALITY_EMAIL_TEMPLATE = "low-quality-notify.html";
+
 }
